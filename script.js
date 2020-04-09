@@ -36,21 +36,35 @@ $(document).ready(function () {
                 })
 
 
-                // Transfer content to HTM
+                //day 1 
                 $(".general-information").html("<h1>" + response.city.name + " Weather Details</h1>");
+                $(".detail3").text("Temperature (K) " + response.list[0].main.temp);
                 $(".detail1").text("Wind Speed: " + response.list[0].wind.speed);
                 $(".detail2").text("Humidity: " + response.list[0].main.humidity);
+              
 
-           /*      // Convert the temp to fahrenheit
-                var tempF = (response.main - 273.15) * 1.80 + 32; */
+                // day 2 
+                $(".detail4").text("Wind Speed: " + response.list[1].wind.speed);
+                $(".detail5").text("Humidity: " + response.list[1].main.humidity);
+                $(".detail6").text("Temperature (K) " + response.list[1].main.temp);
 
-                // added temp content to html
-                $(".detail3").text("Temperature (K) " + response.list[0].main.temp);
+                //day 3
+                $(".detail7").text("Wind Speed: " + response.list[2].wind.speed);
+                $(".detail8").text("Humidity: " + response.list[2].main.humidity);
+                $(".detail9").text("Temperature (K) " + response.list[2].main.temp);
 
 
+                //day 4
+                $(".detail10").text("Wind Speed: " + response.list[3].wind.speed);
+                $(".detail11").text("Humidity: " + response.list[3].main.humidity);
+                $(".detail12").text("Temperature (K) " + response.list[3].main.temp);
 
 
+                //day 5
 
+                $(".detail13").text("Wind Speed: " + response.list[4].wind.speed);
+                $(".detail14").text("Humidity: " + response.list[4].main.humidity);
+                $(".detail15").text("Temperature (K) " + response.list[4].main.temp);
 
 
 

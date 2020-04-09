@@ -1,48 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>weather app</title>
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    
-</head>
-<body>
-<div class="container">
-    <div class="header">
-        <div class="icon-container">
-            <canvas id="icon" width="100" height="100"></canvas>
-        </div>
-    </div>
-    <div class="content">
-        <div class="general-information">
-            <div class="status" data-status>Enter A Location</div>
-            <div class="location" data-location>To Find The Weather </div>
-        </div>
-        <div class="detail-section">
-            <div class="detail1">
-                <div class="title">Wind</div>
-                <div class="value">TBD</div>
-            </div>
-            <div class="detail2">
-                <div class="title">Temperature</div>
-                <div class="value">TBD</div>
-            </div>
-            <div class="detail3">
-                <div class="title">Humidity</div>
-                <div class="value">TBD</div>
-            </div>
-        </div>
-        <div class="city-search-container">
-            <input id="searchbox" type="text" class="city-search" placeholder="Enter Location">
-        </div>
-        <br>
-        <button type="button" class="btn btn-primary btn-lg btn-block" id="searchbutton">Search</button>
-    </div>
 
-</div>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icon-container">
+                <canvas id="icon" width="100" height="100"></canvas>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="general-information">
+                <div class="status" data-status>Enter A Location</div>
+                <div class="location" data-location>To Find The Weather </div>
+            </div>
+
+            <div class="city-search-container">
+                <input id="searchbox" type="text" class="city-search" placeholder="Enter Location">
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="searchbutton">Search</button>
+            <br>
+
+            <p>
+                For the next 5 days
+            </p>
+            <div class="container">
+                <div class="detail-section">
+                    <div class="detail1">
+                        <div class="title">Wind</div>
+                        <div class="value">TBD</div>
+                    </div>
+                    <div class="detail2">
+                        <div class="title">Temperature</div>
+                        <div class="value">TBD</div>
+                    </div>
+                    <div class="detail3">
+                        <div class="title">Humidity</div>
+                        <div class="value">TBD</div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <div class="detail-section">
+                    <div class="detail4">
+                        <div class="title">Wind</div>
+                        <div class="value">TBD</div>
+                    </div>
+                    <div class="detail5">
+                        <div class="title">Temperature</div>
+                        <div class="value">TBD</div>
+                    </div>
+                    <div class="detail6">
+                        <div class="title">Humidity</div>
+                        <div class="value">TBD</div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <div class="container">
+                <div class="detail-section">
+                    <div class="detail7">
+                        <div class="title">Wind</div>
+                        <div class="value">TBD</div>
+                    </div>
+                    <div class="detail8">
+                        <div class="title">Temperature</div>
+                        <div class="value">TBD</div>
+                    </div>
+                    <div class="detail9">
+                        <div class="title">Humidity</div>
+                        <div class="value">TBD</div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <div class="detail-section">
+                    <div class="detail10">
+                        <div class="title">Wind</div>
+                        <div class="value">TBD</div>
+                    </div>
+                    <div class="detail11">
+                        <div class="title">Temperature</div>
+                        <div class="value">TBD</div>
+                    </div>
+                    <div class="detail2">
+                        <div class="title">Humidity</div>
+                        <div class="value">TBD</div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <div class="detail-section">
+                    <div class="detail13">
+                        <div class="title">Wind</div>
+                        <div class="value">TBD</div>
+                    </div>
+                    <div class="detail14">
+                        <div class="title">Temperature</div>
+                        <div class="value">TBD</div>
+                    </div>
+                    <div class="detail15">
+                        <div class="title">Humidity</div>
+                        <div class="value">TBD</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
 
 
@@ -77,11 +157,9 @@
 
 
 
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="script.js"></script>
 </body>
-</html>
 
+</html>
