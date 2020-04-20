@@ -6,7 +6,7 @@
 
 body {
     background-color:rgb(51, 130, 156);
-    background-image: url(animated.gif); 
+    background-image: url(../images/animated.gif); 
     display: flex;
     justify-content: center;
     align-items: center;
